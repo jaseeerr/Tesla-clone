@@ -9,6 +9,20 @@ body{
     font-family: "M PLUS 1", sans-serif;
 }
 
+.desktop
+{
+    display: none;
+}
+
+
+@media (min-width: 768px)
+{
+ .desktop
+ {
+    display: initial;
+ }   
+}
+
 
 header{
     display: grid;
@@ -119,10 +133,25 @@ section .buttons{
    
 }
 
+
+
 .footer
 {
     margin-left: 360px;
 }
 
+@media (min-width: 768px)
+{
+    
+.footer
+{
+    margin-left: auto;
+}
+}
 
-
+.last
+{
+    position: absolute;
+    top: 4000px;
+    left:80px
+}
